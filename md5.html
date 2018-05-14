@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.1.10.1.min.js"></script>
+    <script src="md5.min.js"></script>
+    <script src="base64.min.js"></script>
+</head>
+<body>
+<script>
+
+
+    var originPw = '123456';
+    var md5Pw = md5(originPw);
+    console.log(md5Pw);
+    var base64Pw = Base.decodeByHexString(md5Pw);
+    console.log(base64Pw);
+
+</script>
+
+
+</body>
+</html>
