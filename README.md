@@ -1,5 +1,5 @@
 # js-base64-byHexString
-JavaScript for implementation for Java: Base64.encodeBase64(byte[] binaryData)
+JavaScript for implementation for Java: Base64.encodeBase64(byte[] binaryData)<br>
 In Java:
 ```Java
     MessageDigest digester = MessageDigest.getInstance("MD5");
